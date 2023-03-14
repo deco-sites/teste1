@@ -1,6 +1,7 @@
 import { withLive } from "$live/live.ts";
 
 export const handler = withLive({
-  site: "start",
-  siteId: 8,
+  siteId: 604,
+  site: "teste1",
+  domains: ["teste1.deco.site"],
 });
